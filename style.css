@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=PT+Sans+Narrow&display=swap");
+
+html,
+body {
+  height: calc(100vh - 1px);
+  width: calc(100vw - 1px);
+  font-family: "Lobster", cursive;
+  background-color: rgb(191, 209, 225);
+}
+
+.tcenter {
+  text-align: center;
+  max-width: 100%;
+  font-weight: lighter;
+}
+
+.mg-auto {
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+  background-color: darkgray;
+  width: 420px;
+  border: 5px solid black;
+  border-style: double;
+  border-radius: 20px;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.button {
+  padding: 22px;
+  margin: 0 5px;
+  border: 2px solid black;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-family: "Lobster", cursive;
+  width: 80px;
+  background-color: rgb(245, 228, 248);
+  margin-bottom: 10px;
+}
+
+.row :hover {
+  background-color: rgb(205, 188, 205);
+}
+
+.row {
+  margin: 10px 0px;
+  width: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.row input {
+  font-size: 22px;
+  margin: 0px;
+  padding: 15px 57px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: lightgreen;
+  color: rgb(53, 53, 53);
+  font-family: "Lobster", cursive;
+  text-align: right;
+}
+
+.clear {
+  width: 380px;
+  height: 50px;
+  padding: 0;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+}
+footer a{
+  text-decoration: none;
+}
+
+@media (min-width: 500px) {
+  .tcenter {
+    text-align: center;
+  }
+  .flex {
+    width: 420px;
+  }
+}
